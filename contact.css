@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #3D8361;
+}
+
+/*HEADER/NAVIGATIONS*/
+nav {
+    background-color: #FFFF;
+    height: 90px;
+    width: 100%;
+}
+
+img.logo {
+    width: 100px;
+    height: 97px;
+    line-height: 90px;
+    margin-left: 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    color: #3D8361; 
+    font-family: Poppins;
+    font-size: 16px;  
+    font-weight: 200;
+}
+
+a:hover {
+    color: #EEEEEE;
+    transition: .7s ease; 
+}
+
+.footer-container {
+    height: 350px;
+    background-color: #1C6758;
+}
+
+.img-container2 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 150px 0 0 400px;
+}
+
+.contact-footer { 
+    display: flex;
+    margin: 10px 0 0 900px;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #FFFF;
+}
+.contact-container {
+    display: flex;
+    margin: -60px 0 0 900px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 300;
+    color: #FFFF;
+}
+
+.contact-email {
+    display: flex;
+    margin: 40px 0 0 900px;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 300;
+    color: #FFFF;
+}
+
+.socialapps {
+    display: flex;
+    margin: 10px 0 0 890px;
+}
+.socialapps a {
+    width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #FFFF;;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
